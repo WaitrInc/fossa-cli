@@ -1,0 +1,8 @@
+- move services into implicit global packages (just be more idiomatic)
+  - APIService -> api (FOSSA API under api/fossa, v2 under api/fossa.v2)
+  - LogService -> log
+  - ExecService -> exec (also add getenv)
+  - FileService -> files
+- test these packages using fixtures (it's really the only way to get true testing)
+- factor out pure parts of parsing logic -- test these as units
+- maybe put this all under /v2 or /next top-level dir?

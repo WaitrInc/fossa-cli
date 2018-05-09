@@ -8,6 +8,8 @@ import (
 	"github.com/fossas/fossa-cli/module"
 )
 
+// TODO: move ApiService here
+
 type SourceUnit struct {
 	Name     string
 	Type     string

@@ -10,3 +10,15 @@ analyze:
   - name: fossa
     path: cmd/fossa
     type: go
+    options:
+      go:
+        allowunresolved: false
+      python:
+        strategy: ""
+      gradle:
+        task: ""
+        configuration: ""
+      maven:
+        settings: ""
+      nuget:
+        targetframework: ""
